@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <title> Student Registration </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+  <style>
+    label{
+      font-family: 'Sofia', cursive;
+      color:brown;
+    }
+    input[type="text"]{
+      color:brown;
+      width: 200px;
+      height: 20px;
+      border-radius: 15px;
+      border: 2px solid brown;
+      }
+     input[type="number"]{
+      color:brown;
+      border-radius: 20px;
+      border:2px solid brown;
+     }
+     input[type="Email"]{
+      color: brown;
+      border-radius: 20px;
+      border:2px solid brown;
+     }
+     input[type="password"]{
+      color: brown;
+      border-radius: 20px;
+      border:2px solid brown;
+     }
+     input[type="date"]{
+      color:brown;
+      border-radius: 20px;
+      border:2px solid brown;
+     }
+     input[type="country"]{
+      color:brown;
+      border-radius: 20px;
+      border:2px solid brown;
+     }
+    textarea{
+      color:brown;
+      border-radius: 20px;
+      border:2px solid brown;
+    }
+    button[type="submit"]{
+      color: brown;
+      background-color: aqua;
+    }
+    button[type="reset"]{
+      color:brown;
+      background-color: rgb(169, 155, 184);
+    }
+    #form{
+      font-family: 'Sofia', cursive;
+      color:blue;
+    }
+    #tech{
+      color:brown;
+      border-radius: 20px;
+      border:2px solid brown;
+      
+    }
+    #profile{
+      color: brown;
+    }
+    
+   
+     
+    </style>
+   </head>
+   <body>
+    <h2 id="form"> Student Registration Form </h2>
+    <fieldset>
+      <legend> <span id="form"> Student Registration Form </span></legend>
+    <form>
+        <table>
+          <tbody>
+            <tr>
+              <td><label> First Name </label> </td>
+              <td><input type="text" maxlength="10" required autofocus placeholder="First Name With Only 10 chars"> </td>
+            </tr>
+            <tr>
+              <td><label> Last Name </label> </td>
+              <td><input type="text" placeholder="pls Last name only"> </td>
+            </tr>
+            <tr> 
+              <td><label> Age </label></td>
+              <td><input type="number" max="98"required> </td>
+            </tr>
+            <tr>
+              <td> <label> mobile number </label></td>
+              <td> <input type="number"></td>
+            </tr>
+            <tr>
+              <td> <label> Email </label></td>
+              <td> <input type="Email"></td>
+            </tr>
+            <tr>
+              <td> <label> Password </label></td>
+              <td> <input type="password"></td>
+            </tr>
+            <tr>
+              <td> <label> Date of Birth </label> </td>
+              <td> <input type="date"> </td>
+            </tr>
+            <tr>
+              <td> <label> country </label></td>
+              <td> <input type="country"> </td>
+            </tr>
+            <tr>
+              <td> <label> Select Degree </label> </td>
+              <td>
+                <Select id="tech">
+                  <option> MCA </option>
+                  <option> BE </option>
+                  <option> BCA </option>
+                  <option> BBA </option>
+                  <option> MCS </option>
+                  <option> BSC </option>
+                </Select>
+              </td>
+            </tr>
+            <tr>
+              <td> <label> Select Gender </label></td>
+              <td >
+                <input type="radio" name="gender"> <label> Male </label>
+                <input type="radio" name="gender"> <label> Female </label>
+                <input type="radio" name="gender"> <label> Others </label>
+              </td>
+            </tr>
+            <tr>
+              <td> <label> select you hobby </label></td>
+              <td>
+                <input type="checkbox"> <label> Reading </label>
+                <input type="checkbox"> <label> Watching Motivation Videos </label>
+                <input type="checkbox"> <label> Dancing </label>
+              </td>
+            </tr>
+            <tr id="profile">
+              <td> <label> Upload profile photo </label></td>
+              <td> <input  type="file"></td>
+            </tr>
+            <tr id="profile">
+              <td> <label> UPload Graduation Mark Sheets </label> </td>
+              <td> <input type="file" multiple> </td>
+            </tr>
+            <tr>
+              <td> <label> Present Address </label> </td>
+              <td> <textarea rows="5" cols="40"></textarea> </td>
+            </tr>
+            <tr>
+              <td> <button type="submit"> submit </button></td>
+              <td> <button type="reset"> Reset </button></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+     </fieldset> 
+
+    
+
+   </body>
+</html>
